@@ -1,0 +1,41 @@
+.dashboardPage{
+    padding: 0 2rem;
+    margin: 1rem;
+    width: 100%;
+    overflow: auto;
+}
+.dashboard__lineChart{
+    overflow: auto;
+    margin: 0.5rem auto;
+    padding:  1rem;
+    width: clamp(600px,60vw,80rem);
+    height:100%;
+}
+.dashboard__addAmt{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.5rem
+}
+
+.dashboard__deleteBtn{    
+    color: #ec5e6f !important;
+}
+
+/* media query */
+@media (max-width:425px){
+    
+    .dashboard__card{
+        width: 18rem !important;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px){
+    
+    .dashboard__card{
+        width: 21rem !important;
+        font-size: 0.9em;
+    }
+}

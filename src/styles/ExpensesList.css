@@ -1,0 +1,25 @@
+.expensesListPage{
+    margin: 0.5rem auto;
+    margin-top: 1.5rem;
+    padding: 0 1.5rem;
+    overflow: auto;
+}
+
+.expensesList__delButton{
+    color: #ec5e6f !important;
+}
+.expensesList-date-picker-btn{
+    position: absolute;
+    right: 0px;
+    top: 14px;
+}
+.expensesList-dp-btn{
+    color: var(--green2) !important
+}
+
+/* media query for printing*/
+@media print{
+    .expensesList-date-picker-btn{
+        display: none
+    }
+}

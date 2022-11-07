@@ -1,0 +1,15 @@
+.home{
+    margin: 0 auto;
+    padding-top: 15rem;
+  }
+
+  .home-title{
+    font-size: 38px;
+    margin: 10px;
+    line-height: 1.5;
+  }
+  
+  .home-btn{
+    cursor: pointer;
+    margin: 1rem 6rem;
+  }

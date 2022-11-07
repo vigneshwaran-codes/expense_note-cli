@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+:root{
+  --blue: #1f618D;
+  --white:#fff;
+  --white2:rgb(240, 240, 240);
+}
+
+body{
+  height: 100vh !important;
+  width: 100% !important;
+  /* background-image: linear-gradient(to right top, #6bd199, #5ed5c3, #76d5df, #9fd3e9, #c1d2e5, #c3d5ea, #c5d8ee, #c7dbf3, #a4e4ff, #72eeff, #4bf7ea, #5ffbc1); */
+  background-color:#ff99af;
+  background-image:
+  radial-gradient(at 31% 22%, hsla(261,82%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 7% 45%, hsla(261,88%,71%,1) 0px, transparent 50%),
+  radial-gradient(at 16% 82%, hsla(357,85%,74%,1) 0px, transparent 50%),
+  radial-gradient(at 76% 9%, hsla(178,94%,60%,1) 0px, transparent 50%),
+  radial-gradient(at 89% 69%, hsla(323,78%,78%,1) 0px, transparent 50%),
+  radial-gradient(at 99% 99%, hsla(176,92%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 42% 94%, hsla(306,85%,73%,1) 0px, transparent 50%);
+}
+
+/* error messages if validation fails*/
+.error__message {
+  margin: 0;
+  padding: 0;
+  font-size: 0.95em;
+  display: block;
+  text-align: center;
+}
+
+
+.btn-danger {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-danger:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.btn-danger:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.btn-primary {
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .btn-primary:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .btn-primary:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }
+
+/* media query for error messages from server*/
+@media (width < 426px) {
+  .error__message {
+      font-size: 0.75em;
+  }
+}

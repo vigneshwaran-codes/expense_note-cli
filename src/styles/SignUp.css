@@ -1,0 +1,119 @@
+.signup{
+    margin: 8vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    height: 600px;
+    width: clamp(30vw,28rem, 80vw);
+    background-color:var(--white);
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.1);
+}
+.signup-logo{
+    border-radius:50%;
+    background-color: var(--white);
+    padding: 1rem;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 100%;
+    max-width: clamp(100px, 30vw,140px);
+    height: auto;
+    justify-content: center;
+}
+
+.signup img{
+    width: 100%;
+    height: auto;   
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.title{
+    text-align: center;
+    color: var(--blue);
+    font-size: 2.2em;
+}
+
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    gap: 0.35rem;
+    height: 100%;
+    width:80%;
+}
+i{
+    font-size:1.25em;
+    color: var(--blue);
+    position: relative;
+    top:10px;
+
+}
+
+.spBtn{
+    border-radius:5rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-top:0.5rem;
+    padding: 0.5rem;
+    height: 100%;
+    font-size: 1.05em;
+    font-weight: 500;
+    background-color:var(--green);
+    color: var(--white);
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 0.5px solid black;
+}
+.spBtn:hover{
+    transform: scale(1.1)
+}
+
+.footer{
+    padding: 0.5rem;
+    font-size: 0.9em;
+}
+a{
+    color: var(--green);
+}
+a:hover{
+    color: rgb(135, 190, 212);
+}
+
+
+/* media query*/
+@media (width <= 426px) {
+    .title{
+        font-size: 1.5em;
+    }
+    .spBtn{
+        margin: 0 auto;
+        margin-top:1rem;
+        padding: 0.3rem;
+        height: 100%;
+        font-size: 0.85em;
+    }
+    .footer{
+        font-size: 0.7em;
+    }
+}
+
+@media (width >= 426px ) and (width <= 768px) {
+    .title{
+        font-size: 1.8em;
+    }
+    .spBtn{
+        margin: 0 auto;
+        margin-top:1.2rem;
+        padding: 0.4rem;
+        height: 100%;
+        font-size: 0.95em;
+    }
+}
